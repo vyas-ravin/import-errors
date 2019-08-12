@@ -1,7 +1,7 @@
 {
     "name": "import-data/import-excel",
     "description": "package for capture import errors",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
