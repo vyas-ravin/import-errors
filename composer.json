@@ -28,7 +28,7 @@
                 "ImportErrors\\ImportDataError\\ImportErrorsServiceProvider"
             ],
             "aliases": {
-                "ImportErrors": "ImportErrors\\ImportDataError\\ImportErrorsFacade"
+                "ImportErrors": "ImportErrors\\ImportDataError\\ImportFacade"
             }
         }
     }
