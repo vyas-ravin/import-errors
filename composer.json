@@ -1,5 +1,5 @@
 {
-    "name": "import-data/import-errors",
+    "name": "import-data/import-excel",
     "description": "package for capture import errors",
     "type": "composer-plugin",
     "license": "MIT",
@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ImportErrors\\Mailer\\ImportErrorsServiceProvider"
+                "ImportErrors\\ImportDataError\\ImportErrorsServiceProvider"
             ],
             "aliases": {
                 "ImportErrors": "ImportErrors\\ImportDataError\\ImportErrorsFacade"
