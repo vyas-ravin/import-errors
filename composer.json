@@ -1,5 +1,5 @@
 {
-    "name": "packages/import-errors",
+    "name": "import-data/import-errors",
     "description": "package for capture import errors",
     "type": "composer-plugin",
     "license": "MIT",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "packages\\import-errors\\": "src/"
+            "import-data\\import-errors\\": "src/"
         }
     },
     "extra": {
